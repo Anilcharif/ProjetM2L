@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Inscription | Intranet</title>
+	<link rel="stylesheet" href="./css/reset.css">
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<header>
+		<div class="logo-container">
+			<img src="./asset/moniteur.png" alt="Logo Intranet">
+			<h1>Intranet</h1>
+		</div>
+		<div class="header-buttons">
+			<button class="list-button">
+				<img src="" alt="List Icon">
+				Liste
+			</button>
+			<button class="logout-button">
+				<img src="./asset/se-deconnecter.png" alt="Logout Icon">
+                <span>Déconnexion</span>
+			</button>
+		</div>
+	</header>
+	<main>
+		<h2>Modifier mon profil</h2>
+		<form>
+			<div>
+				<label for="civility">Civilité:</label>
+				<select id="civility" name="civility">
+					<option value="homme">Homme</option>
+					<option value="femme">Femme</option>
+				</select>
+			</div>
+			<div>
+				<label for="category">Catégorie:</label>
+				<select id="category" name="category">
+					<option value="client">Client</option>
+					<option value="employe">Employé</option>
+					<option value="manager">Manager</option>
+				</select>
+			</div>
+			<div>
+				<label for="nom">Nom:</label>
+				<input type="text" id="nom" name="nom">
+			</div>
+			<div>
+				<label for="prenom">Prénom:</label>
+				<input type="text" id="prenom" name="prenom">
+			</div>
+			<div>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email">
+			</div>
+			<div>
+				<label for="motdepasse">Mot de passe:</label>
+				<input type="password" id="motdepasse" name="motdepasse">
+			</div>
+			<div>
+				<label for="confirmation">Confirmation:</label>
+				<input type="password" id="confirmation" name="confirmation">
+			</div>
+			<div>
+				<label for="telephone">Téléphone:</label>
+				<input type="tel" id="telephone" name="telephone">
+			</div>
+			<div>
+				<label for="datenaissance">Date de naissance:</label>
+				<input type="date" id="datenaissance" name="datenaissance">
+			</div>
+			<div>
+				<label for="ville">Ville:</label>
+				<input type="text" id="ville" name="ville">
+			</div>
+			<div>
+				<label for="pays">Pays:</label>
+				<input type="text" id="pays" name="pays">
+			</div>
+			<div>
+				<label for="photourl">URL de la photo:</label>
+				<input type="url" id="photourl" name="photourl">
+			</div>
+
+            <button class="modifier-button" type="submit">Modifier</button>
+		</form>
+	</main>
+	<footer>
