@@ -13,6 +13,8 @@ section,figure,h1,h2,h3,h4,h5,h6,ol,p,ul{
     margin:0;
     padding:0;
     list-style:none;
+    text-align: center;
+    margin-bottom: 3rem;
 }
 a{
     text-decoration:none;
@@ -32,7 +34,7 @@ button, #ex{
 /* header */
 
 header{
-    background-image: linear-gradient( to bottom,#F56B74,#EE4546, #E66AA2);
+    background-image: linear-gradient( to bottom,#d10a0a,#ff0000, #fa6400);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -50,7 +52,7 @@ header a img.yes{
     height: 4rem;
     width: 4rem;
     margin: 1rem;
-    filter: invert(1);
+
 }
 header a.co{
     background: rgb(255 255 255 / .2);
@@ -102,6 +104,7 @@ main form label{
     align-items: center;
 }
 main form{
+    text-align: center;
     width: 50rem;
     margin: 0 60rem;
 }
