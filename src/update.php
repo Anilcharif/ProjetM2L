@@ -1,7 +1,7 @@
 <?php 
 
 // Connexion à la base de données
-$connexion = mysqli_connect("localhost", "root", "", "mdl");
+$connexion = mysqli_connect("localhost", "root", "", "m2l");
 
 if(isset($_POST['submit'])) {
     $id = $user['id']; // récupérer l'ID de l'utilisateur à modifier à partir du formulaire

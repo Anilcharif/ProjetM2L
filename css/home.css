@@ -8,9 +8,10 @@ main section{
 }
 main div.left{
     width: 40%;
+    overflow: hidden;
 }
 main section p.zeb{
-    background-color: aqua;
+    background-color: rgb(0, 233, 12);
     position: fixed;
     width: 5rem;
     margin-left: 50rem;
@@ -29,20 +30,26 @@ main section:hover p.zeb{
 }
 main div.left img{
     height: 100%;
-    width: 98%;
-
+    width: 90%;
+}
+main ul li{
+    display: flex;
+    align-items: center;
+}
+main ul.right{
+    margin: 2rem 0;
 }
 main ul li img{
     width: 2.5rem;
-    margin-right: 2rem;
+    margin-right: 1rem;
 }
 main ul li p.nom{
     font-weight: bolder;
     font-size: 1.9rem;
 }
 main ul li p.age{
+    margin-left: 1rem;
     color: grey;
-    margin-right: 1rem;
 }
 main ul li p.pays{
     margin: 1rem 0rem;

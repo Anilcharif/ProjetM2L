@@ -21,12 +21,12 @@
 <body>
 <header>
         <div>
-            <a href="./connected.php"><img class="yes" src="./asset/1904668-connection-document-file-media-network-share-social_122517.png" alt="img">Internet</a>
+            <a href="./connected.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
         </div>
         <div>
-        <a href="./liste.php" class="Liste" id="Liste"><img class="yes" src="./asset/list-symbol-of-three-items-with-dots_icon-icons.com_72994.png" alt="img">Liste</a>
+        <a href="./liste.php" class="Liste" id="Liste"><img class="yes" src="./asset/list_icon_128825.png" alt="img">Liste</a>
         <a href="./connected.php"><?php echo '<img src="' . $_SESSION['URL'] . '" class="top">'?></a>
-        <a href="./src/deconnexion.php" class="right"><img class="yes" src="./asset/door_direction_arrow_out_log_exit_icon_232679.png" alt="">Déconnexion</a>
+        <a href="./src/deconnexion.php" class="right"><img class="yes" src="./asset/se-deconnecter.png" alt="">Déconnexion</a>
         </div>   
     </header>
   <main>
@@ -142,7 +142,6 @@
     <input type="submit" name="submit" value="Modifier les informations" id="ex">
     
 </form>
-<button class="btn_delet">delete</button>
 <form method="POST" action="">
   <input type="submit" name="delete" value="Delete" class="byebye">
 </form>
