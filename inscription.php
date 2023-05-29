@@ -2,14 +2,15 @@
     session_start();
     include_once("./src/data.inc.php");
 ?>
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/header.css">
-    <title>Document</title>
+	<meta charset="UTF-8">
+	<title>Intranet</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="./css/hearder.css">
 </head>
 <body>
     <header>
@@ -17,13 +18,13 @@
             <a href="./inscription.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
         </div>
         <div>
-            <a href="./connexion.php" class="right"><img class="yes" src="./asset/porte.png" alt="">Connection</a>
+            <a href="./connexion.php" class="right"><img class="yes" src="./asset/porte connection.png" alt="">Connection</a>
         </div>   
     </header>
-    <main>
-        <h1>Cree Mon profil</h1>
+	<main>
+		<h1>Creer Mon profil </h2>
         <form method="post"> 
-            <label>Civilite
+            <label>Civilite*
                 <select name="Civilite" id="Civilite">
                     <option value="Homme">Homme</option>
                     <option value="Femme">Femme</option>
@@ -34,12 +35,13 @@
                     <option value="Client">Client</option>
                     <option value="admin">admin</option>
                 </select>
+
             </label>
             <label>Nom*
-                <input type="text" name="nom" aria-labelledby="Nom"  id="Nom" placeholder="text" aria-required="true">
+                <input type="text" name="nom" aria-labelledby="Nom"  id="Nom" placeholder="Nom*" aria-required="true">
             </label>
             <label>Prénom*
-                <input type="text" name="prenom" aria-labelledby="Prénom"  id="Prénom" placeholder="text" aria-required="true">
+                <input type="text" name="prenom" aria-labelledby="Prénom"  id="Prénom" placeholder="Prenom*" aria-required="true">
             </label>
             <label>Mail ou login*
                 <input type="email" name="mail" aria-labelledby="email"  id="email" placeholder="Mail Utilisateur" aria-required="true" autofocus>
@@ -67,13 +69,26 @@
             </label>
             <input type="submit" aria-label="Envoyer" value="CONNECTION A VOTRE COMPTE" id="ex">
         </form>
-        <?php
+        
+<?php
                      //inclusion
                     include_once "./src/inscription.php";
                  ?>
-    </main>
-    <footer>
 
+
+	</main>
+	<footer>
     </footer>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+

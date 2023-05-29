@@ -11,7 +11,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -26,9 +26,9 @@
             <a href="./connected.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
         </div>
         <div>
-        <a href="./liste.php" class="Liste" id="Liste"><img class="yes" src="./asset/listicon.png" alt="img">Liste</a>
+        <a href="./liste.php" class="Liste" id="Liste"><img class="yes" src="./list-symbol-of-three-items-with-dots_icon-icons.com_72994.png" alt="img">Liste</a>
         <a href="./connected.php"><?php echo '<img src="' . $_SESSION['URL'] . '" class="top">'?></a>
-        <a href="./src/deconnexion.php" class="right"><img class="yes" src="./asset/deconnecter.png" alt="">Déconnexion</a>
+        <a href="./src/deconnexion.php" class="right"><img class="yes" src="./asset/porte connection.png" alt="img">Déconnexion</a>
         </div>   
     </header>
     <main>
