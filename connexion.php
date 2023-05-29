@@ -3,25 +3,29 @@
     include_once("./src/data.inc.php");
 ?>
 
+
+
+
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Intranet</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="./css/hearder.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-    <div>
+        <div>
             <a href="./inscription.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
         </div>
         <div>
-            <a href="./connexion.php" class="right"><img class="yes" src="./asset/porte connection.png" alt="">Connection</a>
-        </div>   
+            <a href="" class="co"><img class="yes" src="./asset/porte.png" alt="">Connection</a>
+        </div>
     </header>
-	<main>
-    <h2>Connexion </h2>
+    <main>
+    <h1>Connexion</h1>
     <p class="down">Pour Vous connecter a l'intranet, entrez votre identifiant et mot de passe.</p>
         <form method="post"> 
             <label>Mail ou login*

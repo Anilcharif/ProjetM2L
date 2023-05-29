@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Intranet</title>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<link rel="stylesheet" href="./css/hearder.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/hearder.css">
+    <link rel="stylesheet" href="./css/home.css">
+
+    <title>Document</title>
 </head>
 <body>
     <header>
         <div>
-            <a href="./inscription.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
+            <img src="./asset/intranet.png" alt="img">
+            <p>Internet</p>
         </div>
-        <div>
-            <a href="./connexion.php" class="right"><img class="yes" src="./asset/porte connection.png" alt="">Connection</a>
-        </div>   
+        <a href=""><img src="./asset/porte.png" alt="">Connexion</a>
     </header>
-	<main>
-		<h2>Creer Mon profil </h2>
+    <main>
         <form method="post"> 
             <label>Civilite*
                 <select name="Civilite" id="Civilite">
@@ -26,16 +27,15 @@
             </label>
             <label>Categorie*
                 <select name="Categorie" id="Categorie">
-                    <option value="Client">Client</option>
-                    <option value="admin">admin</option>
+                    <option value="Homme">Client</option>
+                    <option value="Femme">admin</option>
                 </select>
-
             </label>
             <label>Nom*
-                <input type="text" name="nom" aria-labelledby="Nom"  id="Nom" placeholder="Nom*" aria-required="true">
+                <input type="text" name="nom" aria-labelledby="Nom"  id="Nom" placeholder="text" aria-required="true">
             </label>
             <label>Prénom*
-                <input type="text" name="prenom" aria-labelledby="Prénom"  id="Prénom" placeholder="Prenom*" aria-required="true">
+                <input type="text" name="prenom" aria-labelledby="Prénom"  id="Prénom" placeholder="text" aria-required="true">
             </label>
             <label>Mail ou login*
                 <input type="email" name="mail" aria-labelledby="email"  id="email" placeholder="Mail Utilisateur" aria-required="true" autofocus>
@@ -53,15 +53,25 @@
                 <input type="date" id="Birthdate" name="Birthdate" placeholder="Enter Your Birthdate" required>
             </label>
             <label>Ville*
-            <input type="Ville" id="Ville" name="Ville" placeholder="Ville" required>
+                <select name="Categorie" id="Categorie">
+                    <option value="la">la</option>
+                    <option value="pasLa">pasLa</option>
+                </select>
             </label>
             <label>Pays*
-            <input type="Pays" id="Pays" name="Pays" placeholder="Pays" required>
+                <select name="Categorie" id="Categorie">
+                    <option value="Homme">Client</option>
+                    <option value="Femme">admin</option>
+                </select>
             </label>
-            <label for="URL">URL de la photo
-                <input type="url" id="URL" name="URL" placeholder="URL" required>
+            <label for="Birthdate">URL de la photo
+                <input type="text" id="URL" name="URL" placeholder="URL" required>
             </label>
             <input type="submit" aria-label="Envoyer" value="CONNECTION A VOTRE COMPTE" id="ex">
         </form>
-	</main>
-	<footer>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
