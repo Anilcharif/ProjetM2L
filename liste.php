@@ -18,6 +18,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/list.css">
+    <link rel="stylesheet" href="./css/home.css">
+
     <title>Document</title>
 </head>
 <body>
@@ -31,9 +33,27 @@
         <a href="./src/deconnexion.php" class="right"><img class="yes" src="./asset/se-deconnecter.png" alt="">Déconnexion</a>
         </div>   
     </header>
+    <h1 class=titre >Liste des collaborateurs</h1>
     <main>
+        
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Recherche...">
+    </div>
+    <div class="search-bar">
+        <label for="search-by">Rechercher par :</label>
+        <select id="search-by">
+            <option value="nom">Nom</option>
+        </select>
+    </div>
+    <div class="search-bar">
+        <label for="search-by">Categorie:</label>
+        <select id="search-by">
+            <option value="categorie">Aucun</option>
+        </select>
+    </div>
 
-        <?php
+
+    <?php
             // Loop through the results and display each user's name
             foreach ($result as $user) {
                     
@@ -53,7 +73,15 @@
                         $color = 'vert'; // assign green color to clients
                       } elseif ($user['Categorie'] == 'admin') {
                         $color = 'rouge'; // assign red color to administrators
+                      } elseif ($user['Categorie'] == 'technicien') {
+                        $color = 'blue'; // assign blue color to administrators
+                      } elseif ($user['Categorie'] == 'commercial') {
+                        $color = 'yellow'; // assign yellow color to administrators
+                      } elseif ($user['Categorie'] == 'Manager') {
+                        $color = 'orange'; // assign orange color to administrators
                       }
+                    
+
 
                 echo "
                 <section data-uid=" . $user['id'] . ">
@@ -84,3 +112,11 @@
     <script defer src="./js/app.js"></script>
 </body>
 </html>
+
+
+
+    
+
+
+
+       

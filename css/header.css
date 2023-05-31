@@ -9,7 +9,7 @@ body{
     margin: 0;
     line-height: 1.6;
 }
-section,figure,h1,h2,h3,h4,h5,h6,ol,p,ul{
+section,figure,h1,h2,h3,h4,h5,h6,ol,p,ul,.titre{
     margin:0;
     padding:0;
     list-style:none;
@@ -93,6 +93,10 @@ main h1,p{
 main h1{
     margin: 2rem auto;
 }
+.titre{
+    text-align: center;
+}
+
 main p.down{
     margin-bottom: 3rem;
 }

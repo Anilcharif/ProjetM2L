@@ -33,6 +33,9 @@
                 <select name="Categorie" id="Categorie">
                     <option value="Client">Client</option>
                     <option value="admin">admin</option>
+                    <option value="Technicien">technicien</option>
+                    <option value="Commercial">commercial</option>
+                    <option value="Manager">Manager</option>
                 </select>
             </label>
             <label>Nom*
@@ -65,7 +68,7 @@
             <label for="URL">URL de la photo
                 <input type="url" id="URL" name="URL" placeholder="URL" required>
             </label>
-            <input type="submit" aria-label="Envoyer" value="CONNECTION A VOTRE COMPTE" id="ex">
+            <input type="submit" aria-label="Envoyer" value="S'inscrire" id="ex">
         </form>
         <?php
                      //inclusion

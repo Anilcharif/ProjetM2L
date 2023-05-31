@@ -35,7 +35,7 @@
     </header>
     <main>
         <h1>Bienvenue sur l'intranet</h1>
-        <p>La plate-forme de l'entreprise qui vous permet de retrouver tout vos colaborateurs</p>
+        <p>La plate-forme de l'entreprise qui vous permet de retrouver tous vos colaborateurs</p>
         <section>
             <div class="left">
             <?php
