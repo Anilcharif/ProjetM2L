@@ -15,7 +15,7 @@
 <body>
     <header>
         <div>
-            <a href="./"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
+            <a href="./"><img class="yes" src="./asset/intranet.png" alt="img">Intranet</a>
         </div>
         <div class="header-links">
             <a href="./inscription.php" class="ins"><img class="yes" src="./asset/add-user.png" alt="">Inscription</a>

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../css/style.css">
+
 <?php if(isset($_POST['mail']) || isset($_POST['psw'])){
                 $_email = $_POST["mail"];
 

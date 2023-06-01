@@ -25,7 +25,7 @@
 <body>
     <header>
         <div>
-            <a href="./connected.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
+            <a href="./connected.php"><img class="yes" src="./asset/intranet.png" alt="img">Intranet</a>
         </div>
         <div>
             <a href="./liste.php" class="Liste"><img class="yes" src="./asset/list_icon_128825.png" alt="img">Liste</a>
@@ -49,8 +49,14 @@
                 <li><?php echo '<img src="./asset/phone-handset_icon-icons.com_48252.png" class="phone"> <p>' . $_SESSION['tel'] . '</p>'; ?></li>
                 <li><?php echo '<img src="./asset/birthdaycakewithcandles_79795.png" class="an"> <p>Anniversaire : ' . $_SESSION['mois'] . '</p>'; ?></li>
             </ul>
-            <p class="zeb">abc</p>
+            <p class="zeb">En ligne</p>
+
         </section>
     </main>
+
+    <div class="center2">
+    <a href="./liste.php" class="btn2">Dire Bonjour à quelqu'un d'autre</a>
+    </div>
+
 </body>
 </html>

@@ -11,7 +11,7 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -25,7 +25,7 @@
 <body>
     <header>
         <div>
-            <a href="./connected.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
+            <a href="./connected.php"><img class="yes" src="./asset/intranet.png" alt="img">Intranet</a>
         </div>
         <div>
         <a href="./liste.php" class="Liste" id="Liste"><img class="yes" src="./asset/list_icon_128825.png" alt="img">Liste</a>
@@ -73,9 +73,9 @@
                         $color = 'vert'; // assign green color to clients
                       } elseif ($user['Categorie'] == 'admin') {
                         $color = 'rouge'; // assign red color to administrators
-                      } elseif ($user['Categorie'] == 'technicien') {
+                      } elseif ($user['Categorie'] == 'Technicien') {
                         $color = 'blue'; // assign blue color to administrators
-                      } elseif ($user['Categorie'] == 'commercial') {
+                      } elseif ($user['Categorie'] == 'Commercial') {
                         $color = 'yellow'; // assign yellow color to administrators
                       } elseif ($user['Categorie'] == 'Manager') {
                         $color = 'orange'; // assign orange color to administrators

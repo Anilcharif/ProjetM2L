@@ -3,8 +3,6 @@
     include_once("./src/data.inc.php");
     include_once("./src/session.php");
 
-
-
 ?>
 
 <!DOCTYPE html>
@@ -21,7 +19,7 @@
 <body>
 <header>
         <div>
-            <a href="./connected.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
+            <a href="./connected.php"><img class="yes" src="./asset/intranet.png" alt="img">Intranet</a>
         </div>
         <div>
         <a href="./liste.php" class="Liste" id="Liste"><img class="yes" src="./asset/list_icon_128825.png" alt="img">Liste</a>
@@ -113,6 +111,9 @@
                 <select name="Categorie" id="Categorie">
                     <option value="Client">Client</option>
                     <option value="admin">admin</option>
+                    <option value="Technicien">Technicien</option>
+                    <option value="Commercial">Commercial</option>
+                    <option value="Manager">Manager</option>
                 </select>
             </label>
             <label>Nom*

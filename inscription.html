@@ -10,14 +10,16 @@
 <body>
     <header>
         <div>
-            <img src="./asset/intranet.png" alt="img">
-            <p>Internet</p>
+            <a href="./inscription.php"><img class="yes" src="./asset/intranet.png" alt="img">Intranet</a>
         </div>
-        <a href=""><img src="" alt="">Connexion</a>
+        <div>
+            <a href="./connexion.php" class="right"><img class="yes" src="./asset/door.png" alt="">Connection</a>
+        </div>   
     </header>
     <main>
+        <h1>Créer Mon Profil</h1>
         <form method="post"> 
-            <label>Civilite*
+            <label>Civilite
                 <select name="Civilite" id="Civilite">
                     <option value="Homme">Homme</option>
                     <option value="Femme">Femme</option>
@@ -25,8 +27,11 @@
             </label>
             <label>Categorie*
                 <select name="Categorie" id="Categorie">
-                    <option value="Homme">Client</option>
-                    <option value="Femme">admin</option>
+                    <option value="Client">Client</option>
+                    <option value="admin">admin</option>
+                    <option value="Technicien">Technicien</option>
+                    <option value="Commercial">Commercial</option>
+                    <option value="Manager">Manager</option>
                 </select>
             </label>
             <label>Nom*
@@ -51,21 +56,15 @@
                 <input type="date" id="Birthdate" name="Birthdate" placeholder="Enter Your Birthdate" required>
             </label>
             <label>Ville*
-                <select name="Categorie" id="Categorie">
-                    <option value="la">la</option>
-                    <option value="pasLa">pasLa</option>
-                </select>
+            <input type="Ville" id="Ville" name="Ville" placeholder="Ville" required>
             </label>
             <label>Pays*
-                <select name="Categorie" id="Categorie">
-                    <option value="Homme">Client</option>
-                    <option value="Femme">admin</option>
-                </select>
+            <input type="Pays" id="Pays" name="Pays" placeholder="Pays" required>
             </label>
-            <label for="Birthdate">URL de la photo
-                <input type="text" id="URL" name="URL" placeholder="URL" required>
+            <label for="URL">URL de la photo
+                <input type="url" id="URL" name="URL" placeholder="URL" required>
             </label>
-            <input type="submit" aria-label="Envoyer" value="CONNECTION A VOTRE COMPTE" id="ex">
+            <input type="submit" aria-label="Envoyer" value="S'inscrire" id="ex">
         </form>
     </main>
     <footer>

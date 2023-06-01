@@ -21,7 +21,7 @@ main section p.vert, p.rouge, p.blue ,p.yellow, p.orange {
     position: absolute;
     top: 0;
     right: 0;
-    width: 9rem;
+    width: 12rem;
     border-radius: .7rem;
     overflow: hidden;
     opacity: 0;
@@ -92,12 +92,12 @@ main ul li p.nom {
 
 main ul li p.age {
     margin-left: 1rem;
-    color: grey;
+    color: #000;
 }
 
 main ul li p.pays {
     margin: 1rem 0rem;
-    color: grey;
+    color: #000;
 }
 
 .search-bar {

@@ -14,14 +14,14 @@
 <body>
     <header>
         <div>
-            <a href="./inscription.php"><img class="yes" src="./asset/intranet.png" alt="img">Internet</a>
+            <a href="./inscription.php"><img class="yes" src="./asset/intranet.png" alt="img">Intranet</a>
         </div>
         <div>
             <a href="./connexion.php" class="right"><img class="yes" src="./asset/door.png" alt="">Connection</a>
         </div>   
     </header>
     <main>
-        <h1>Cree Mon Profil</h1>
+        <h1>Créer Mon Profil</h1>
         <form method="post"> 
             <label>Civilite
                 <select name="Civilite" id="Civilite">
@@ -33,8 +33,8 @@
                 <select name="Categorie" id="Categorie">
                     <option value="Client">Client</option>
                     <option value="admin">admin</option>
-                    <option value="Technicien">technicien</option>
-                    <option value="Commercial">commercial</option>
+                    <option value="Technicien">Technicien</option>
+                    <option value="Commercial">Commercial</option>
                     <option value="Manager">Manager</option>
                 </select>
             </label>
