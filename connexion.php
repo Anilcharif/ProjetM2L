@@ -4,13 +4,20 @@
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/header.css">
-    <title>Document</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./asset/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon/favicon-16x16.png">
+    <link rel="icon" type= "image/ico" href="./asset/favicon/site.webmanifest">  
+    <link rel="manifest" href="./asset/favicon/site.webmanifest">
+
+
+    <title>Intranet</title>
 </head>
 <body>
     <header>
@@ -28,10 +35,10 @@
     <p class="down">Pour Vous connecter a l'intranet, entrez votre identifiant et mot de passe.</p>
         <form method="post"> 
             <label>Mail ou login*
-                <input type="email" name="mail" aria-labelledby="email"  id="email" placeholder="Mail Utilisateur" aria-required="true" autofocus>
+                <input type="email" name="mail"  id="email" placeholder="Mail Utilisateur" aria-required="true" autofocus>
             </label>
             <label>Mot de passe*
-                <input type="password" name="psw" aria-labelledby="password" id="password" placeholder="Mot de passe" aria-required="true">
+                <input type="password" name="psw"  id="password" placeholder="Mot de passe" aria-required="true">
             </label>
             <input type="submit" aria-label="Envoyer" value="CONNECTION A VOTRE COMPTE" id="ex">
         </form>

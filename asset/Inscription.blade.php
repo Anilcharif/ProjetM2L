@@ -4,22 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="./asset/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon/favicon-16x16.png">
-    <link rel="icon" type= "image/ico" href="./asset/favicon/site.webmanifest">  
-    <link rel="manifest" href="./asset/favicon/site.webmanifest">
-
+    <link rel="stylesheet" href="{{ asset('css/header.css') }}">
     <title>Document</title>
 </head>
 <body>
     <header>
         <div>
-            <a href="./inscription.php"><img class="yes" src="./asset/intranet.png" alt="img">Intranet</a>
+            <a href="{{ url('inscription') }}"><img class="yes" src="{{ asset('asset/intranet.png') }}" alt="img">Intranet</a>
         </div>
         <div>
-            <a href="./connexion.php" class="right"><img class="yes" src="./asset/door.png" alt="">Connection</a>
+            <a href="{{ url('connexion') }}" class="right"><img class="yes" src="{{ asset('asset/door.png') }}" alt="">Connection</a>
         </div>   
     </header>
     <main>
@@ -72,6 +66,7 @@
             </label>
             <input type="submit" aria-label="Envoyer" value="S'inscrire" id="ex">
         </form>
+        @include('inscription')
     </main>
     <footer>
 

@@ -110,7 +110,7 @@ main ul li p.pays {
 #search-input {
     padding: 0.5rem;
     margin-left: 25rem;
-    border: 2px solid gray;
+    border: 2px solid #000;
     border-radius: 0.4rem;
     width: 50rem;
 }
@@ -119,7 +119,7 @@ main ul li p.pays {
     display: flex;
     justify-content: flex-end; /* Aligner les éléments à droite */
     padding: 0.5rem;
-    border: 2px solid gray;
+    border: 2px solid #000;
     border-radius: 0.4rem;
     margin-left: 1rem;
 }
