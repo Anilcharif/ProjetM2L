@@ -33,3 +33,13 @@ if(isset($_POST['submit'])) {
         mysqli_stmt_close($req);
     }
 }
+
+
+
+
+/* Le code se connecte à une base de données MySQL en utilisant les informations de connexion fournies : nom d'hôte ("localhost"), nom d'utilisateur ("root"), mot de passe ("") et nom de la base de données ("m2l").
+Si le formulaire est soumis (l'utilisateur a cliqué sur le bouton "submit"), les données du formulaire sont récupérées. Les informations de l'utilisateur à mettre à jour comprennent son ID, sa civilité, sa catégorie, son nom, son prénom, son adresse e-mail, son numéro de téléphone, sa date de naissance, sa ville, son pays et son URL.
+Les champs du formulaire sont validés pour s'assurer qu'ils ne sont pas vides. Si un champ est vide, un message d'avertissement est affiché.
+Si tous les champs sont remplis, une requête SQL de mise à jour est préparée à l'aide de la fonction "mysqli_prepare". La requête utilise les paramètres de substitution "?" pour les valeurs qui seront fournies ultérieurement.
+Les valeurs des champs du formulaire sont liées aux paramètres de la requête préparée à l'aide de la fonction "mysqli_stmt_bind_param". Les types de données et les variables sont spécifiés dans l'ordre approprié.
+La requête est exécutée à l'aide de la fonction "mysqli_stmt_execute". */

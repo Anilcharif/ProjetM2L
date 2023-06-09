@@ -1,22 +1,21 @@
 <?php
 
-    // Query the database for users
+    // Interroger la base de données pour obtenir les utilisateurs
     try {
         $query = "SELECT * FROM inscription";
         $result = $_bdd->query($query);
         
     } catch (PDOException $e) {
-        echo 'Query failed: ' . $e->getMessage();
-        die();
+        echo 'Échec de la requête : ' . $e->getMessage(); // Affiche un message en cas d'échec de la requête
+        die(); // Arrête l'exécution du script
     }
 
-    // If there are no results, display a message
+    // Si aucun résultat n'est trouvé, afficher un message
     if ($result->rowCount() === 0) {
-        echo "No results found.";
-        die();
+        echo "Aucun résultat trouvé.";
+        die(); // Arrête l'exécution du script
     }
 
-    // Get user data from the database and store it in session variables
+    // Obtenir les données utilisateur à partir de la base de données et les stocker dans des variables de session
        
-    
 ?>

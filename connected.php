@@ -45,7 +45,7 @@ echo '<script>const userSession = "' . $_SESSION['mail'] . '";</script>';
         </div>   
     </header>
     <main>
-        <h1>Bienvenue sur l'intranet</h1>
+        <h1>Bienvenue sur l'intranet </h1>
         <p>La plate-forme de l'entreprise qui vous permet de retrouver tous vos collaborateurs</p>
         <section>
             <div class="left">
